@@ -1,0 +1,88 @@
+
+.shado {
+  text-shadow: 5px 5px 5px crimson;
+  font-size:100px;
+  color:white;
+  text-align:center;
+  margin:0;
+}
+.shado2 {
+  text-shadow: 5px 5px 5px crimson;
+  font-size:20px;
+  color:white;
+  text-align:center;
+  background-color:black;
+  opacity:0.8;
+}
+input:focus{
+  background-color: red;
+}
+.cent {
+  color:white;
+}
+.submitbutton {
+  color:white;
+  background-color:black;
+  border: 2px solid white;
+  border-radius:8px;
+}
+.bor{
+  border: 2px solid black;
+  border-radius:28px;
+  
+}
+
+.button{
+  background-color: white;
+  border:20px;
+  border-radius:45px;
+  color: black;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  opacity:0.9;
+
+}
+
+.button:hover{
+  background-color:black;
+  color:white;
+  
+}
+.container {
+  height: 1vh;/* Full viewport height for demonstration */
+  position:relative;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%); /* Centers the button */
+}
+
+.mask1 {
+  -webkit-mask-image: url(coolkid.jpg);
+  -mask-image: url(everycharacterloadingscreen.jpg);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.background-container {
+  background-image: url('everycharacterloadingscreen.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  animation: fadeIn 5s ease-in-out;
+}
