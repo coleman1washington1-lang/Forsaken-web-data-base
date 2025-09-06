@@ -55,14 +55,14 @@ input:focus{
   
 }
 .container {
-  height: 1vh;/* Full viewport height for demonstration */
+  height: 1vh;
   position:relative;
 }
 button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%); /* Centers the button */
+  transform: translate(-50%, 50%); 
 }
 
 .mask1 {
@@ -80,7 +80,7 @@ button {
 }
 
 .background-container {
-  background-image: url('IMG_6284.jpeg');
+  background-image: url(IMG_6284.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh; 
